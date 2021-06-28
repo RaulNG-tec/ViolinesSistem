@@ -1,6 +1,10 @@
 class Server{
+    #db
+    #view
     constructor(htmlFileName){
         this.htmlFile = htmlFileName;
+        this.#db = new DB();
+        this.#view = new View();
     }
 
     init(){
@@ -8,4 +12,12 @@ class Server{
         html.setWidth(1200).setHight(600);
         SpreadsheetApp.getUi().showModalDialog(html, "Registro de Voluntarios");
     }
+
+    ad
+
+    sendEmail(){
+
+    }
+
+
 }

@@ -6,8 +6,4 @@ class View {
     loadView() {
 
     }
-
-    loadSearchView() {
-
-    }
 }
